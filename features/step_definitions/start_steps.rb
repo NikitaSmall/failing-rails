@@ -9,3 +9,7 @@ end
 Then(/^The result equal to "(.*?)"$/) do |number|
   expect(@num).to eq(number)
 end
+
+Given(/^this test tooks too long$/) do
+  sleep 10
+end

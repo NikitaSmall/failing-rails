@@ -9,3 +9,7 @@ Feature: Test different types of errors
     Given this test with variable "2"
     When I want to pass it
     Then The result equal to "2"
+
+  Scenario: Long test
+    Given this test tooks too long
+    Then I want to pass it
