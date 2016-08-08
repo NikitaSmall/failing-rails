@@ -6,4 +6,6 @@ require 'ci/reporter/rake/cucumber'
 
 Rails.application.load_tasks
 
-task :cucumber => 'ci:setup:cucumber'
+namespace :ci do
+  task :all => ['ci:setup:cucumber', 'cucumber']
+end
