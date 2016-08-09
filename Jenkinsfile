@@ -1,4 +1,4 @@
-node('linux') {
+node {
   stage 'Installation'
   bash 'rvm use "ruby@gemset"'
   bash 'set -e'
