@@ -35,8 +35,13 @@ gem 'jbuilder', '~> 2.5'
 
 group :test do
   gem 'rspec'
+
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'poltergeist'
+
   gem 'cucumber'
-  gem 'cucumber-rails', :require => false
+  gem 'cucumber-rails'
   # database_cleaner is not required, but highly recommended
   gem 'database_cleaner'
 end

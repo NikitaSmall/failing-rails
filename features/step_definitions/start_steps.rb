@@ -11,5 +11,5 @@ Then(/^The result equal to "(.*?)"$/) do |number|
 end
 
 Given(/^this test tooks too long$/) do
-  sleep 10
+  sleep 1
 end
