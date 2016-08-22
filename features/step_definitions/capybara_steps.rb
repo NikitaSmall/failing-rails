@@ -7,5 +7,5 @@ When(/^I am on the page$/) do
 end
 
 Then(/^I see "(.*?)" title$/) do |title|
-  page.has_content?(title)
+  expect(page).to have_content(title)
 end
